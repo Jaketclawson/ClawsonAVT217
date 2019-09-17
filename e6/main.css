@@ -1,11 +1,15 @@
-p.intro{
-  color: yellow;
+body{
+  font-size:
 }
-
 .intro{
-  color: red;
+  font-size: 1.8em;
 }
 
 p{
+
+}
+#special {
   color: blue;
+  font-size: 1.1em;
+  font-style: sans-serif;
 }
