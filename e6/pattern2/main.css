@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+#container {
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: -20px;
+  opacity: .6;
+}
+.tile1 {
+  background-color: ForestGreen;
+  height: 50px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.tile2 {
+  background-color: Dodgerblue;
+  transform: rotate(45deg);
+}
+.tile3 {
+  background-color: Darkred;
+  height: 100px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
