@@ -13,3 +13,7 @@ p{
   font-size: 1.1em;
   font-style: sans-serif;
 }
+
+#container{
+  width: 75%;
+}
