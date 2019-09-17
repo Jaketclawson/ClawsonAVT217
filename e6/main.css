@@ -1,11 +1,11 @@
+p.intro{
+  color: yellow;
+}
+
 .intro{
   color: red;
 }
 
 p{
   color: blue;
-}
-
-p.intro{
-  color: yellow;
 }
