@@ -1,12 +1,12 @@
 body{
   margin: 0;
 }
-.title {
+.tile1 {
   width: 100px;
   height: 100px;
   background: green;
 }
-.title {
+.tile2 {
   width: 100px;
   height: 100px;
   background: blue;
