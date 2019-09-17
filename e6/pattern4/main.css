@@ -10,19 +10,35 @@ body{
 .tile1, .tile2, .tile3{
   width: 75px;
   height: 125px;
-  float: right;
+  float: left;
   margin: -25px;
-  opacity: 1.5;
+  opacity: .5;
 }
 .tile1 {
   background-color: orange;
-}
-.tile2 {
-  background-color: brown;
+  float: left;
+  border-right: 30px solid #6C6;
+  border-top: 52px solid transparent;
+  border-bottom: 52px solid transparent;
+  }
+  .tile2 {
+    background-color: yellow;
+    float: left;
+    border-left: 30px solid #6C6;
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
 }
 .tile3 {
-  background-color: yellow;
+  background-color: brown;
+  float: left;
+  width: 60px;
+  height: 104px;
+  background-color: #6C6;
 }
 .tile4 {
   background-color: red;
+  float: left;
+  border-right: 30px solid #6C6;
+  border-top: 52px solid transparent;
+  border-bottom: 52px solid transparent;
 }
