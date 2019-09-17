@@ -5,3 +5,7 @@
 p{
   color: blue;
 }
+
+p.intro{
+  color: yellow;
+}
