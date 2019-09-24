@@ -1,7 +1,10 @@
-body{
+body {
   background-color: orange;
-  margin-left: 30mm;
-  margin-right: 30mm;
+  text-align: center;
+  font-weight: italic;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-transform: full-width;
 }
 img{
   max-width: 100%;
