@@ -1,5 +1,5 @@
 body{
-  background-color: lightgreen;
+  background-color: orange;
   margin-left: 30mm;
   margin-right: 30mm;
 }
@@ -7,24 +7,11 @@ img{
   max-width: 100%;
 }
 p{
-  text-indent: 10mm;
+  text-indent: 20mm;
   font-family: monospace;
 }
 h1{
   text-align: center;
   font-style: italic;
   font-family: fantasy;
-}
-h2{
-  text-align: center;
-  font-style: italic;
-  font-family: fantasy;
-}
-h3{
-  text-align: center;
-  font-style: italic;
-  font-family: fantasy;
-}
-li{
-  font-family: monospace;
 }
