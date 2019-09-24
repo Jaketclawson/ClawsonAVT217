@@ -3,14 +3,14 @@ body {
   text-align: center;
   font-weight: italic;
   font-family: sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   text-transform: full-width;
 }
 img{
   max-width: 100%;
 }
 p{
-  text-indent: 20mm;
+  text-indent: 50mm;
   font-family: monospace;
 }
 h1{
