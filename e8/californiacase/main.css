@@ -1,0 +1,60 @@
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: darkgreen;
+  margin: 5px;
+}
+/* pound sign references ID */
+#court {
+  background-color: red;
+  width: 400px;
+  margin: 50px auto;
+}
+.side, .top, .below, .bottomleft, .bottomcenter, .bottomright{
+  float: left;
+  border: 1px solid white;
+}
+.right, .left{
+  float: left;
+}
+.side{
+  width: 100px;
+  height: 200px;
+}
+.right{
+  width: 200px;
+
+}
+.top{
+  width: 100px;
+  height: 100px;
+}
+.below{
+  width: 200px;
+  height: 100px;
+}
+.left{
+  width: 100px;
+}
+.bottomleft{
+  width: 100px;
+  height: 200px;
+}
+.bottomcenter{
+  width: 100px;
+  height: 400px;
+}
+.bottomright{
+  width: 200px;
+  height: 400px;
+}
