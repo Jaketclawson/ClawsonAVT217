@@ -1,31 +1,43 @@
-#board {
-  width: 1030px;
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
-.tile1 {
-  width: 100px;
-  height: 410px;
-  background-color: red;
-  margin: 10px;
+
+.cf:after {
+  clear: both;
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+  margin: 0;
+}
+/* pound sign references ID */
+#court {
+  background-color: peru;
+  width: 600px;
+  margin: 50px auto;
+}
+
+.side, .back, .middle{
   float: left;
+  border: 5px solid white;
 }
-.tile4 {
+.center{
+  width: 400px;
+  float:left;
+}
+.side{
   width: 100px;
-  height: 410px;
-  background-color: red;
-  margin: 10px;
-  float: right;
-}
-.tile2 {
-  width: 750px;
-  height: 105px;
-  background-color: black;
-  margin: 10px;
-  float: left;
-}
-.tile3 {
-  width: 370px;
   height: 400px;
-  background-color: blue;
-  margin: 5px;
-  float: left;
+}
+.back{
+  width: 400px;
+  height: 100px;
+}
+.middle{
+  width: 200px;
+  height: 300px;
 }
