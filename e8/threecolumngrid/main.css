@@ -1,5 +1,6 @@
 #board {
   width: 900px;
+  margin: 50px auto;
 }
 .tile1 {
   width: 880px;
