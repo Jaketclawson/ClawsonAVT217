@@ -24,6 +24,10 @@ h2{
   text-decoration: none;
 }
 
+a:visited{
+  color: purple;
+  text-decoration: none;
+}
 a:hover{
   color: red;
 }
