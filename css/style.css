@@ -25,9 +25,5 @@ h2{
 }
 
 a:hover{
-  color: blue;
-}
-
-a:active{
-  color: brown;
+  color: red;
 }
