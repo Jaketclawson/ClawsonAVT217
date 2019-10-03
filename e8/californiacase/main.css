@@ -24,16 +24,13 @@ body {
   float: left;
   border: 1px solid white;
 }
-.right, .left{
+.left{
   float: left;
+  width: 100px;
 }
 .side{
   width: 100px;
   height: 200px;
-}
-.right{
-  width: 200px;
-
 }
 .top{
   width: 100px;
@@ -42,9 +39,6 @@ body {
 .below{
   width: 200px;
   height: 100px;
-}
-.left{
-  width: 100px;
 }
 .bottomleft{
   width: 100px;
