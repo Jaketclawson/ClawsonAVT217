@@ -1,0 +1,32 @@
+h1{
+  font-family: Lucida;
+  font-weight: 700;
+  font-size: 100px;
+  text-decoration: underline;
+  text-align: center;
+}
+h2{
+  font-family: Lucida;
+  font-weight: 500;
+  font-size: 50px;
+  text-decoration: underline;
+  line-height: 0.2;
+  text-align: center;
+}
+div{
+  margin: 0;
+}
+body{
+  margin: 0;
+}
+
+.text{
+  width: 25%;
+  margin: 100px auto;
+}
+
+p{
+  font-family: Lucida;
+  font-size: 16px;
+  line-height: 1.6;
+}
