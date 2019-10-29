@@ -1,0 +1,94 @@
+body {
+  margin: 80px;
+  text-align: center;
+  background-color: black;
+}
+.pumpkin {
+  position: relative;
+	width: 360px;
+	height: 280px;
+	border-radius: 220px / 240px;
+  background-color: #b64d00;
+}
+.pumpkin-stem {
+  position: absolute;
+  top: -34px;
+  left: 160px;
+  height: 40px;
+  width: 40px;
+  background-color: #194d14;
+}
+.eye {
+  position: absolute;
+  animation: blink 5s infinite;
+  background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
+  background-size: 200% 200%;
+  top: 150px;
+  left: 180px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+ .eye:before {
+    position: absolute;
+    content: '';
+    left: 120px;
+    animation: blink 5s infinite;
+    background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
+    background-size: 200% 200%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+ }
+@keyframes blink {
+  0%, 50% {
+    background-position: 0 100%;
+  }
+  53% {
+    background-position: 0 0%;
+  }
+  55% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+.pumpkin:before,
+.pumpkin:after {
+  content: '';
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+	height: 100%;
+  border-radius: 180px / 240px;
+}
+
+.pumpkin:before {
+  left: 18%;
+  border-left: 3px solid rgba(0,0,0,0.1)
+}
+
+.pumpkin:after {
+  right: 18%;
+  border-right: 3px solid rgba(0,0,0,0.1)
+}
+.mouth {
+  position: absolute;
+  background: #111111;
+  top: 180px;
+  left: 225px;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px 10px 100% 100%;
+}
+.tooth {
+  position: absolute;
+  background: white;
+  top: 180px;
+  left: 245px;
+  width: 30px;
+  height: 10px;
+  border-radius: 10px 10px 100% 100%;
+}
