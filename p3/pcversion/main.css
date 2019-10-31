@@ -6,6 +6,10 @@
   width: 1440px;
   float: center;
 }
+.tile3 {
+  width: 1440px;
+  float: center;
+}
 h1{
   text-align: center;
   font-family: fantasy;
@@ -40,19 +44,6 @@ h4{
   margin-right: 250px;
   font-weight: lighter;
 }
-.tile2 {
-  width: 560px;
-  float:left;
-}
-.tile3 {
-  width: 560px;
-  float: right;
-}
-.extratile {
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .center2 {
   display: block;
   margin-left: auto;
@@ -64,10 +55,11 @@ h4{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 50%
 }
 p{
   line-height: 1.6;
   font-size: 18px;
   margin-bottom: 15px;
-  text-align: center;
+  text-align: left;
 }
