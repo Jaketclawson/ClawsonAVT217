@@ -2,15 +2,16 @@ body {
   margin: 80px;
   text-align: center;
   background-color: black;
+  background-image: url(http://eskipaper.com/images/mist-pictures-9.jpg);
 }
-.pumpkin {
+.pumpkin1 {
   position: relative;
 	width: 360px;
 	height: 280px;
 	border-radius: 220px / 240px;
   background-color: #b64d00;
 }
-.pumpkin-stem {
+.pumpkin-stem1 {
   position: absolute;
   top: -34px;
   left: 160px;
@@ -54,23 +55,21 @@ body {
     background-position: 0 100%;
   }
 }
-.pumpkin:before,
-.pumpkin:after {
+.pumpkin1:before, .pumpkin1:after {
   content: '';
   position: absolute;
   top: 0;
-
   width: 100%;
 	height: 100%;
   border-radius: 180px / 240px;
 }
 
-.pumpkin:before {
+.pumpkin1:before {
   left: 18%;
   border-left: 3px solid rgba(0,0,0,0.1)
 }
 
-.pumpkin:after {
+.pumpkin1:after {
   right: 18%;
   border-right: 3px solid rgba(0,0,0,0.1)
 }
@@ -83,11 +82,109 @@ body {
   height: 30px;
   border-radius: 10px 10px 100% 100%;
 }
-.tooth {
+.tooth1 {
   position: absolute;
   background: white;
   top: 180px;
   left: 245px;
+  width: 30px;
+  height: 10px;
+  border-radius: 10px 10px 100% 100%;
+}
+ #moon {
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+     box-shadow: 15px 15px 0 0 Grey;
+     position: absolute;
+     top: 80px;
+     left: 800px;
+   }
+ .hh {
+     position: absolute;
+     top: 270px;
+     left: 230px;
+   }
+p{
+  text-align: center;
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: fantasy;
+  color: yellow;
+  transform: rotate(-20deg);
+}
+.pumpkin2 {
+  position: relative;
+	width: 360px;
+	height: 280px;
+	border-radius: 220px / 240px;
+  background-color: #b64d00;
+  top: 300px;
+  left: 360px;
+}
+.pumpkin-stem2 {
+  position: absolute;
+  top: -34px;
+  left: 160px;
+  height: 40px;
+  width: 40px;
+  background-color: #194d14;
+}
+.eye2 {
+  position: absolute;
+  animation: blink 5s infinite;
+  background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
+  background-size: 200% 200%;
+  top: 700px;
+  left: 540px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+ .eye2:before {
+    position: absolute;
+    content: '';
+    left: 120px;
+    animation: blink 5s infinite;
+    background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
+    background-size: 200% 200%;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+ }
+}
+.pumpkin2:before, .pumpkin2:after {
+  content: '';
+  position: absolute;
+  top: 500px;
+  width: 100%;
+	height: 100%;
+  border-radius: 180px / 240px;
+}
+
+.pumpkin2:before {
+  left: 18%;
+  border-left: 70px solid green)
+}
+
+.pumpkin2:after {
+  right: 18%;
+  border-right: 70px solid green)
+}
+.mouth2 {
+  position: absolute;
+  background: #111111;
+  top: 750px;
+  left: 585px;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px 10px 100% 100%;
+}
+.tooth2 {
+  position: absolute;
+  background: white;
+  top: 750px;
+  left: 605px;
   width: 30px;
   height: 10px;
   border-radius: 10px 10px 100% 100%;
