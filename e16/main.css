@@ -21,7 +21,7 @@ body {
 }
 .eye {
   position: absolute;
-  animation: blink 5s infinite;
+  animation: blink 3s infinite;
   background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
   background-size: 200% 200%;
   top: 150px;
@@ -34,7 +34,7 @@ body {
     position: absolute;
     content: '';
     left: 120px;
-    animation: blink 5s infinite;
+    animation: blink 3s infinite;
     background: linear-gradient(to bottom, #efefef, #efefef 50%, #000 50%, #000);
     background-size: 200% 200%;
     width: 40px;
@@ -163,12 +163,10 @@ p{
 }
 
 .pumpkin2:before {
-  left: 18%;
   border-left: 70px solid green)
 }
 
 .pumpkin2:after {
-  right: 18%;
   border-right: 70px solid green)
 }
 .mouth2 {
