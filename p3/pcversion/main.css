@@ -15,6 +15,7 @@ h1{
   font-family: fantasy;
   font-weight: bold;
   font-size: 100px;
+  color: red;
 }
 h2{
   text-align: center;
@@ -36,12 +37,11 @@ h3{
   font-size: 25px;
 }
 h4{
-  text-align: center;
   font-family: fantasy;
   font-style: italic;
-  font-size: 20px;
-  margin-left: 250px;
-  margin-right: 250px;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
   font-weight: lighter;
 }
 .center2 {
@@ -84,6 +84,7 @@ p{
     font-family: fantasy;
     font-weight: bold;
     font-size: 75px;
+    color: red;
   }
   h2{
     text-align: center;
@@ -156,6 +157,7 @@ p{
     font-family: fantasy;
     font-weight: bold;
     font-size: 75px;
+    color: red;
   }
   h2{
     text-align: center;
@@ -223,6 +225,7 @@ p{
     font-family: fantasy;
     font-weight: bold;
     font-size: 100px;
+    color: red;
   }
   h2{
     text-align: center;

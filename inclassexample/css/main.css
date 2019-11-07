@@ -1,0 +1,115 @@
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+html{
+  font-size: 16px;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+#header{
+  box-sizing: border-box;
+  width: 100%;
+  height: 90vh;
+  background: url(../img/dog-9.jpg) no-repeat bottom right fixed;
+  background-size: cover;
+  padding: 5%;
+}
+.text{
+  width: 800px;
+  margin: 50px auto;
+}
+
+.text img, .iim .text img {
+  max-width: 100%;
+  margin: 50px 0 25px;
+}
+
+.iim{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.iim image{
+  max-width: 50%;
+  float: left;
+  margin: 0 50px 25px 0;
+}
+
+.full{
+  max-width: 100%;
+}
+.half{
+  max-width: 50%;
+}
+
+img.full{
+  max-width: 100%;
+  margin: 50px 0 0 0;
+}
+img.half{
+  max-width: calc(50% - 5px);
+  float: left;
+  margin: 10px 10px 0 0;
+}
+
+img.right-10px{
+  margin-right: 10px;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 6em;
+  weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+p{
+  font-family: 'Merriweather', serif;
+  line-height: 1.6em;
+  margin: 30px 0 0 0;
+}
+.text p.intro{
+  font-size: 2em;
+  line-height: 1.4em;
+}
+
+@media only screen and (max-width: 1440px){
+  .text{
+    width: 55vw;
+  }
+  .iim{
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .iim image{
+    max-width: 100%;
+    float: left;
+    margin: 0 0 50px 0;
+  }
+  img.full{
+    max-width: 100%;
+    margin: 25px 0;
+  }
+  img.half{
+    max-width: 100%;
+    margin: 25px 0;
+  }
+
+  img.right-10px{
+    margin-right: 0;
+  }
+  h1{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 6em;
+    weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+  }
+}
