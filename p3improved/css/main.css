@@ -74,7 +74,7 @@ img.right-10px {
   display: none;
 }
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
   /* em = my font-size in the html styles so 5em = 80px; */
   font-size: 5em;
@@ -84,7 +84,7 @@ h1 {
   color: White;
 }
 p {
-  font-family: 'Merriweather', serif;
+  font-family: 'Oswald', serif;
   line-height: 1.6em;
   margin: 30px 0 0 0;
 }
