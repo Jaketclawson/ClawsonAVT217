@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  margin: 0;
+  font-family: 'Signika', sans-serif;
+  background-color: black;
+}
+.title{
+  width: 100vw;
+  height: 90vh;
+  background-color: forestgreen;
+  color: white;
+  padding: 32vh 0 0 0;
+}
+.goodfellas{
+  width: 100vw;
+  height: 90vh;
+  background-color: lightgreen;
+  color: black;
+  padding: 32vh 0 0 0;
+}
+.savingprivateryan{
+  width: 100vw;
+  height: 90vh;
+  background-color: orange;
+  color: black;
+  padding: 32vh 0 0 0;
+}
+.indianajones{
+  width: 100vw;
+  height: 90vh;
+  background-color: tan;
+  color: black;
+  padding: 32vh 0 0 0;
+}
+.goon{
+  width: 100vw;
+  height: 90vh;
+  background-color: lightblue;
+  color: black;
+  padding: 32vh 0 0 0;
+}
+.miracleonice{
+  width: 100vw;
+  height: 90vh;
+  background-color: dodgerblue;
+  color: black;
+  padding: 32vh 0 0 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-transform: capitalize;
+}
+.align-center{
+  font-style: italic;
+}
+.align-top{
+  text-decoration: underline;
+}
+.align-bottom{
+  transition: all 3s ease;
+  font-size: 20px;
+}
