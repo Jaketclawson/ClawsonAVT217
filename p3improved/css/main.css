@@ -63,12 +63,6 @@ img.half {
 img.right-10px {
   margin-right: 10px;
 }
-
-.footer {
-  width: 100vw;
-  height: 400px;
-  background-color: #dddddd;
-}
 .mobile-only {
   display: none;
 }
@@ -89,6 +83,7 @@ p {
 .text p.intro {
   font-size: 2em;
   line-height: 1.4em;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 1440px) {
