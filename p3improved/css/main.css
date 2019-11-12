@@ -86,7 +86,9 @@ p {
   line-height: 1.4em;
   font-style: italic;
 }
-
+.text p.author {
+  font-weight: bold;
+}
 @media only screen and (max-width: 1440px) {
   .text {
     width: 55vw;
