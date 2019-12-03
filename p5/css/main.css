@@ -29,6 +29,9 @@ body {
   border-radius: 50%;
   transform: rotate(40deg);
 }
+.sphere:hover{
+  cursor: pointer;
+}
 .grow {
   width: 1000px;
   height: 1000px;
